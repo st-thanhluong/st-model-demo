@@ -1,6 +1,6 @@
 {
-  "name": "st-model-demo",
-  "version": "0.0.1",
+  "name": "st-base64-demo",
+  "version": "0.0.2",
   "description": "Demo Publishing your first package to npm.",
   "main": "index.js",
   "scripts": {

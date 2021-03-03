@@ -1,8 +1,10 @@
-const modal = document.querySelector(".modal-container");
+const convertFileToBase64 = (file) => {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.readAsDataURL(file);
+    reader.onload = () => resolve(reader.result)
+    reader.onerror = (error) => reject(error)  
+  })
+}
 
-let isModal = false;
-
-const toggleModal = () => {
-  !isModal ? modal.classList.add("active") : modal.classList.remove("active");
-  isModal = !isModal;
-};
+export default convertFileToBase64;
