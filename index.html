@@ -1,0 +1,25 @@
+
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+
+        <!-- modal 1 -->
+        <div class="box">
+            <a href="#m1-o" class="link-1" id="m1-c" onclick="toggleModal()">show Popup</a>
+
+            <div class="modal-container" id="m1-o" style="--m-background: transparent;">
+                <div class="modal">
+                    <h1 class="modal__title">Hello EveryOne</h1>
+                    <p class="modal__text">di nhau nao</p>
+                    <a href="#m1-c" class="link-2" onclick="toggleModal()"></a>
+                </div>
+            </div>
+        </div>
+        <!-- /modal 1 -->
+    <input type="text" onkeyup="onSearch(event)">   
+    </body>
+    <script src='./index.js'></script>
+  </html>
