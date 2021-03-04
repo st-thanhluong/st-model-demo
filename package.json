@@ -1,5 +1,5 @@
 {
-  "name": "st-base64-demo",
+  "name": "st-base64",
   "version": "0.0.3",
   "description": "Demo Publishing your first package to npm.",
   "main": "index.js",
