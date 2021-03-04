@@ -1,5 +1,4 @@
-# st-model-demo
+# st-base64-demo
 
 Demo Publishing your first package to npm
 
-Show model
